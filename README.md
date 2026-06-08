@@ -101,6 +101,6 @@ Tratamento de divisão por zero:
 
 Antes de realizar divisões, o código verifica se o segundo valor é igual a zero para evitar erros matemáticos.
 
-Autor
-
+    Autor
+Rayan.
 Projeto desenvolvido por mim como atividade prática de Python para aplicação de conceitos fundamentais da linguagem.
