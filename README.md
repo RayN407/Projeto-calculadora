@@ -1,19 +1,20 @@
 # Projeto calculadora
 
 Calculadora em Python
-Descrição
+
+    Descrição
 
 Este projeto consiste em uma calculadora desenvolvida em Python que permite ao usuário realizar operações matemáticas básicas por meio do terminal.
 
 A aplicação foi criada com foco no aprendizado de estruturas fundamentais da linguagem Python, como:
 
-Variáveis
+    Variáveis
 Entrada e saída de dados
 Estruturas condicionais (if, elif e else)
 Estruturas de repetição (while)
 Tratamento de exceções (try e except)
 Operadores matemáticos
-Funcionalidades
+
 
 A calculadora realiza as seguintes operações:
 
@@ -33,9 +34,11 @@ Valida entradas numéricas.
 Trata erros de divisão por zero.
 Permite realizar múltiplos cálculos sem reiniciar o programa.
 Como executar o projeto
-Requisitos
+
+    Requisitos
 Python 3 instalado na máquina.
-Executando o arquivo Python
+
+    Executando o arquivo Python
 
 No terminal, navegue até a pasta do projeto e execute:
 
@@ -44,7 +47,8 @@ python calculadora.py
 ou
 
 python3 calculadora.py
-Como executar utilizando o arquivo .sh
+
+    Como executar utilizando o arquivo .sh
 
 Crie um arquivo chamado executar.sh com o seguinte conteúdo:
 
@@ -58,16 +62,18 @@ chmod +x executar.sh
 Execute o script:
 
 ./executar.sh
-Explicação do código
-Apresentação ao usuário
+
+
+     Explicação do código
+Apresentação ao usuário:
 
 O programa solicita o nome do usuário e oferece uma breve explicação sobre o funcionamento da calculadora.
 
-Entrada de dados
+Entrada de dados:
 
 Os valores são recebidos através da função input() e convertidos para números utilizando float().
 
-Tratamento de erros
+Tratamento de erros:
 
 O código utiliza try e except para impedir que entradas inválidas interrompam a execução do programa.
 
@@ -77,18 +83,21 @@ try:
     valor1 = float(input('Digite o primeiro valor: '))
 except ValueError:
     print('Entrada inválida.')
-Estruturas condicionais
+
+
+Estruturas condicionais:
 
 As operações matemáticas são executadas utilizando estruturas if, elif e else, verificando qual operador foi informado pelo usuário.
 
-Estruturas de repetição
+Estruturas de repetição:
 
 O programa utiliza laços while para:
 
 Validar entradas.
 Permitir que o usuário realize várias operações consecutivas.
 Encerrar o programa somente quando o usuário desejar.
-Tratamento de divisão por zero
+
+Tratamento de divisão por zero:
 
 Antes de realizar divisões, o código verifica se o segundo valor é igual a zero para evitar erros matemáticos.
 
