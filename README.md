@@ -17,7 +17,7 @@ Funcionalidades
 
 A calculadora realiza as seguintes operações:
 
-Operação	Operador
+    Operador
 Adição	+
 Subtração	-
 Multiplicação	*
